@@ -1,0 +1,909 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.startup{
+    background: url(./images/golden-gate-bridge.jpg);
+    height: 100vh;
+    position: relative ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+}
+
+
+.logo ul{
+    display: flex;
+    padding: 20px;
+    padding: 25px 20px;
+    list-style-type: none;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo a:hover{
+    color: rgb(64, 176, 204);
+}
+
+.logo li{
+    margin-right: 20px;
+}
+
+.logo img{
+    width: 130px;
+    height: 30px;
+    margin: 20px
+}
+
+.login{
+    margin-top: 23px;
+}
+
+.login a{
+    text-decoration: none;
+    color: white;
+}
+
+.login a:hover{
+    color: rgb(64, 176, 204);
+}
+
+.login a:last-child{
+    color: rgb(64, 176, 204);
+    border: 1px solid rgb(64, 176, 204);
+    padding: 5px 25px;
+    margin-left: 10px;
+    border-radius: 2px;
+}
+
+.login a:last-child:hover{
+    color: white;
+    border: 1px solid rgb(64, 176, 204);
+    background: rgb(64, 176, 204);
+    padding: 5px 25px;
+}
+
+.overlay{
+    background: #ff6600;
+    background: -moz-linear-gradient(-45deg, #ff6600 0%, rgba(255, 102, 0, 0.92) 25%, rgba(189, 24, 112, 0.78) 70%, rgba(189, 24, 112, 0.68) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #ff6600), color-stop(25%, rgba(255, 102, 0, 0.92)), color-stop(70%, rgba(189, 24, 112, 0.78)), color-stop(100%, rgba(189, 24, 112, 0.68)));
+    background: -webkit-linear-gradient(
+-45deg
+, #ff6600 0%, rgba(255, 102, 0, 0.92) 25%, rgba(189, 24, 112, 0.78) 70%, rgba(189, 24, 112, 0.68) 100%);
+    background: -o-linear-gradient(-45deg, #ff6600 0%, rgba(255, 102, 0, 0.92) 25%, rgba(189, 24, 112, 0.78) 70%, rgba(189, 24, 112, 0.68) 100%);
+    background: -ms-linear-gradient(-45deg, #ff6600 0%, rgba(255, 102, 0, 0.92) 25%, rgba(189, 24, 112, 0.78) 70%, rgba(189, 24, 112, 0.68) 100%);
+    background: linear-gradient(
+135deg
+, #ff6600 0%, rgba(255, 102, 0, 0.92) 25%, rgba(189, 24, 112, 0.78) 70%, rgba(189, 24, 112, 0.68) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6600', endColorstr='#bd1870', GradientType=1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.center{
+    z-index: 10;
+    position: relative;
+    text-align: center;
+}
+
+
+.center h1{
+    font-size: 48px;
+    color: white;
+}
+
+.center p{
+    padding: 20px 500px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.center a{
+    text-decoration: none;
+    color: white;
+}
+
+.center a:hover{
+    color: rgb(64, 176, 204);
+
+}
+
+.center a:first-child{
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 2px;
+    margin-right: 40px;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+
+.center a:first-child:hover{
+   
+    color: rgb(64, 176, 204);
+    padding: 10px 25px;
+    border-radius: 2px;
+    background-position: left;
+}
+
+.logo1{
+    background: rgb(219, 210, 210);
+}
+
+.logo11{
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.tabs a{
+    text-decoration: none;
+    border: 1px solid rgb(207, 197, 197);
+    color: black;
+    padding: 15px 50px;
+}
+
+.tabs{
+    justify-content: center;
+}
+
+.tabs a:hover{
+    color: white;
+    background: rgb(64, 176, 204);
+    border: 1px solid rgb(64, 176, 204);
+}
+
+.leftRight{
+    align-items: end;
+}
+
+.rightText{
+    text-align: center;
+}
+
+.rightText h1{
+    margin-bottom: 20px;
+}
+
+.rightText p{
+    padding: 0 130px 10px 130px;
+}
+
+.rightText .secondP{
+    padding: 20px 55px 50px 55px;
+}
+
+.getTemplateLinks a{
+    text-decoration: none;
+    color: rgb(64, 176, 204);
+    border: 1px solid rgb(64, 176, 204);
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 2px;
+}
+
+.getTemplateLinks a:hover{
+    color: white;
+    border: 1px solid rgb(64, 176, 204);
+    background: rgb(64, 176, 204);
+    padding: 10px 20px;
+}
+
+.firstTab{
+    margin-bottom: 20px;
+}
+
+.paddingTop{
+    padding-top: 50px;
+}
+
+.leftText p{
+    padding: 20px 290px 20px 0;
+}
+
+.leftText .secondP1{
+    padding: 0 140px 0 0;
+}
+
+.rightText1{
+    text-align: right;
+    padding-top: 90px;
+}
+
+.rightText1 p{
+    padding: 20px 0px 20px 250px;
+}
+
+.rightText1 .secondP2{
+    padding-top: 0;
+    padding-left: 110px;
+}
+
+.helmet{
+    margin-bottom: 60px;
+}
+
+.lorem{
+   background: rgb(219, 210, 210);
+}
+
+.dolor{
+    align-items: center;
+}
+
+.three{
+    width: 300px;
+}
+
+.three li{
+    list-style-type: none;
+    padding: 20px 0;
+}
+
+.three h2 {
+    color: rgb(64, 176, 204);
+    padding-bottom: 10px;
+}
+
+.three p{
+    line-height: 2;
+}
+
+.sixFs img{
+    width: 50px;
+}
+
+.sixFs{
+    width: 25%;
+    text-align: center;
+    padding: 40px;
+}
+
+.sixFs h3{
+    padding: 20px;
+}
+
+.sixFs p{
+    line-height: 1.5;
+}
+
+.features{
+    display: flex;
+    flex-flow: wrap;
+}
+
+.updates{
+    background: url(./images/low_poly_background.jpg);
+}
+
+.subscribe{
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.liveUpdates{
+    color:white;
+}
+
+
+.scenePic{
+    position: relative;
+    width: 24%;
+}
+
+.mainPhoto{
+    position: relative;
+}
+
+.mainPhoto img{
+    width: 100%;
+    display: block;
+}
+
+.hoverText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: blue;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.mainPhoto:hover .hoverText {
+    display: block;
+}
+
+.hoverText li{
+    list-style-type: none;
+
+}
+
+.hoverText img{
+    width: 20px;
+}
+
+.hoverText p{
+    text-align: center;
+    color: white;
+    padding: 50px 50px;
+}
+
+.hoverText ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 100px;
+    margin: auto;
+}
+
+.behindTheScene {
+    justify-content: space-between;
+}
+
+.mainText{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.mainText h3{
+    color: rgb(64, 176, 204);
+    padding-bottom: 10px;
+}
+
+.productHead{
+    text-align: center;
+}
+
+ul.flex {
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.threePrices li{
+    width: 33%;
+    text-align: center;
+    background: rgb(243, 240, 240);
+    margin: 0 20px
+}
+
+.productHead {
+    padding: 60px 420px;
+}
+
+.productHead h1 {
+    margin-bottom: 20px;
+}
+
+.threePrices {
+    margin-bottom: 70px;
+}
+
+.price h1 {
+    font-size: 70px;
+}
+
+.price{
+    background: rgb(230, 224, 224);
+    color: gray;
+    padding: 10px;
+}
+
+.threePrices h2{
+    padding: 20px;
+}
+
+.threePrices p{
+    padding: 15px;
+}
+
+.threePrices a{
+    border: 1px solid rgb(64, 176, 204);
+    text-decoration: none;
+    color: rgb(64, 176, 204);
+    padding: 10px 60px;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+
+
+.threePrices li:hover{
+    background: rgb(64, 176, 204);
+    color: white;
+}
+
+.threePrices li:hover a{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.threePrices li a:hover{
+    background: white;
+    color: rgb(64, 176, 204);
+}
+
+.logos{
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+.logos .logo11{
+    width: 25%;
+}
+
+.whatClientsSay{
+    background: url("./images/low_poly_background.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.mainClient{
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    padding: 60px 40px;
+    color: white;
+}
+
+.mainClient h1{
+    margin-bottom: 30px;
+}
+
+.mainClient p{
+    line-height: 1.5;
+}
+
+.amyWarner{
+    width: 33.3%;
+    align-items: center;
+}
+
+.allFlex{
+    width: 900px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+
+.memberPics img{
+    border-radius: 50%;
+    width: 70px;
+}
+
+.textMembers {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.textMembers h3{
+    padding-bottom: 4px;
+}
+
+.behindTheScenes1 p{
+    padding: 20px 270px;
+}
+
+.behindTheScenes1 .sceneP{
+    padding: 0 73px;
+}
+
+.lineHeightP{
+    line-height: 1.5;
+}
+
+.launchYourStartupNow{
+    background: rgb(64, 176, 204);
+    padding: 40px 190px;
+}
+
+.startupLaunch{
+    color: white;
+}
+
+.startupLaunch h1{
+    font-size: 50px;
+}
+
+.templateLaunch a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 30px;
+    width: 220px;
+    display: block;
+}
+
+.templateLaunch a:hover{
+    color: rgb(64, 176, 204);
+    background: white;
+}
+
+.mainLaunch{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.startupLast{
+    background: url("./images/low_poly_background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.startupLy{
+    padding-top: 50px;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+.networkLogos img{
+    width: 50px;
+    padding: 15px 8px;
+}
+
+.widthStartup{
+    width: 33.3%;
+}
+
+.johnDoeson{
+    color: white;
+    padding: 20px 60px;
+}
+
+.johnDoeson p{
+    padding: 20px 0;
+}
+
+.networkIcons{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.socialNetworks{
+    text-align: center;
+    padding: 20px 80px;
+}
+
+.socialNetworks h3{
+    padding-bottom: 10px;
+}
+
+.colorWhite{
+    color: white;
+}
+
+.ourContacts h3{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.ourContacts a{
+    text-decoration: none;
+    color: rgb(64, 176, 204);
+}
+
+.contactsFooter li{
+    list-style-type: none;
+    position: relative;
+    padding-left: 30px;
+    
+}
+
+.contactsFooter img{
+    width: 20px;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+
+
+@media(max-width:1200px){
+    
+    .navBar{
+        padding: 0 20px;
+    }
+
+    .center p{
+        padding: 20px 400px;
+    }
+
+    .launchYourStartupNow.wow.slideInRight {
+        padding: 30px 0;
+    }
+
+    .leftText{
+        padding-left: 10px;
+    }
+
+    .rightText1{
+        padding-right: 20px;
+    }
+
+    .laptop img{
+        width: 870px;
+    }
+}
+
+@media(max-width:1088px){
+    .logo.flex {
+        max-width: 100px;  /* kako?? */
+    }
+
+    .center p{
+        padding: 0;
+    }
+
+    .laptop img{
+        max-width: 750px;
+    }
+
+    .productHead{
+        padding: 30px 360px;
+    }
+
+    .ourAwards .awards{
+        padding: 30px 370px;
+    }
+}
+
+@media(max-width:1060px){
+
+    .login{
+        display: grid;
+    }
+
+    .login a:first-child{
+        margin-bottom: 10px;
+    }
+
+    .contactsFooter{
+        padding: 20px;
+    }
+
+    .networkLogos{
+        width: 40px;
+    }
+}
+
+@media(max-width:991px){
+
+    .navBar{
+        font-size: 10px;
+    }
+
+    .center p{
+        padding: 20px 270px;
+    }
+
+    .leftRight{
+        padding: 40px 10px
+    }
+
+    .leftPic img{
+        width: 450px;
+    }
+
+    .rightText p{
+        padding: 10px 50px;
+    }
+
+    .leftText{
+        padding-left: 20px;
+    }
+
+    .leftText p{
+        padding: 20px 0;
+    }
+
+    .leftText .secondP1{
+        padding: 0;
+    }
+
+    .technology{
+        padding-bottom: 40px;
+    }
+
+    .rightText1 h1{
+        font-size: 50px;
+    }
+
+    .rightText1 p{
+        padding: 20px 0;
+    }
+
+    .rightText1 .secondP2{
+        padding: 0;
+    }
+
+    .laptop img{
+        width: 650px;
+    }
+
+    .productHead{
+        padding: 60px 280px;
+    }
+
+    p.lineHeightP{
+        padding: 20px 230px;
+    }
+
+    .productHead p.lineHeightP {
+        padding: 20px;
+    }
+
+    .startupLaunch {
+        font-size: 10px;
+    }
+
+    .startupLaunch h1{
+        font-size: 30px;
+    }
+
+    .templateLaunch{
+        font-size: 13px; 
+    }
+
+    .networkLogos img{
+        width: 40px;
+    }
+
+    .johnDoeson{
+        padding: 20px 30px;
+        text-align: center;
+    }
+
+    .ourContacts{
+        padding: 0 10px;
+    }
+}
+
+@media(max-width:767px){
+
+
+
+    .navBar{
+        font-size: 7px;
+    }
+
+    .center{
+        font-size: 10px;
+    }
+
+    .center h1{
+        font-size: 30px;
+    }
+
+    .center p{
+        padding: 20px 230px;
+    }
+
+    .logo11 img{
+        width: 120px;
+    }
+
+    .allFlex{
+        width: 730px;
+    }
+
+    .laptop img{
+        width: 440px;
+    }
+
+    .helmetPic img{
+        width: 400px;
+    }
+
+    .rightPic img{
+        width: 300px;
+    }
+
+    .getTemplateLinks{
+        font-size: 10px;
+    }
+
+    .logos{
+        width: 660px;
+    }
+
+    .leftPic img{
+        width: 400px;
+    }
+
+    .rightText p{
+        padding: 10px;
+    }
+
+    .rightText p.secondP{
+        padding: 30px;
+    }
+
+    .leftText{
+        padding: 30px;
+    }
+
+    .helmet{
+        align-items: center;
+    }
+
+    .rightText1 h1{
+        font-size: 25px;
+    }
+
+    .subscribe{
+        padding: 30px;
+    }
+
+    .productHead{
+        padding: 30px 180px;
+    }
+
+    .threePrices a{
+        padding: 10px 20px;
+    }
+
+    .mainClient{
+        padding: 50px 70px;
+    }
+
+    .behindTheScenes1 .lineHeightP{
+        padding: 20px 180px;
+    }
+
+    p.sceneP.lineHeightP {
+        padding: 20px;
+    }
+
+    .socialNetworks{
+        padding: 0;
+    }
+
+    .networkLogos img{
+        width: 55px;
+    }
+
+    .contactsFooter li{
+        padding-bottom: 10px;
+    }
+}
+
+@media(max-width:479px){
+
+
+}
+
